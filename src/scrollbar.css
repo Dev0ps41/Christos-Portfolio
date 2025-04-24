@@ -1,0 +1,9 @@
+.scroll-hidden {
+    scrollbar-width: none;       /* Firefox */
+    -ms-overflow-style: none;    /* Internet Explorer */
+  }
+  
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;               /* Chrome, Safari, Edge */
+  }
+  
